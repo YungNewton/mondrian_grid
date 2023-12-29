@@ -1,46 +1,55 @@
 
 .red{
     background-color: red;
-    border: 5px solid black;
+    border: 9px solid black;
     border-top: 0px;
     border-left: 0px;
 }
 .milk{
     background-color: mintcream;
-    border-bottom: 5px solid black;
+    border-bottom: 9px solid black;
 }
 .milk1{
     background-color: mintcream;
-    border: 5px solid black;
+    border: 9px solid black;
     border-top: 0px;
+    border-left: 0px;
 }
 .milk2{
     background-color: mintcream;
 }
 .milk3{
     background-color: mintcream;
-    border: 5px solid black;
+    border: 9px solid black;
     border-top: 0px;
 }
 .milk4{
     background-color: mintcream;
-    border: 5px solid black;
+    border: 9px solid black;
     border-top: 0px;
 }
 .yellow{
     background-color: yellow;
-    border: 5px solid black;
+    border: 9px solid black;
 }
 .blue{
     background-color: blue;
-    border: 5px solid black;
+    border: 9px solid black;
 }
 .black{
     background-color: black;
-    border: 5px solid black;
+    border: 9px solid black;
 }
 .container{
     display: grid;
     grid-template-columns: 320px 428px;
-    grid-template-rows: 414px;
+    grid-template-rows: 414px 314px 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.milk3{
+    grid-row: span (1.5);
 }
